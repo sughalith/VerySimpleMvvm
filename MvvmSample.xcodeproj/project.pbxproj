@@ -12,6 +12,8 @@
 		DE64D0061F57FD55008AE500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE64D0041F57FD55008AE500 /* Main.storyboard */; };
 		DE64D0081F57FD55008AE500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE64D0071F57FD55008AE500 /* Assets.xcassets */; };
 		DE64D00B1F57FD55008AE500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE64D0091F57FD55008AE500 /* LaunchScreen.storyboard */; };
+		DE64D0131F57FE65008AE500 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE64D0121F57FE65008AE500 /* Dog.swift */; };
+		DE64D0151F57FE74008AE500 /* DogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE64D0141F57FE74008AE500 /* DogViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DE64D0071F57FD55008AE500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE64D00A1F57FD55008AE500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE64D00C1F57FD55008AE500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE64D0121F57FE65008AE500 /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		DE64D0141F57FE74008AE500 /* DogViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				DE64D0001F57FD55008AE500 /* AppDelegate.swift */,
+				DE64D0121F57FE65008AE500 /* Dog.swift */,
+				DE64D0141F57FE74008AE500 /* DogViewModel.swift */,
 				DE64D0021F57FD55008AE500 /* ViewController.swift */,
 				DE64D0041F57FD55008AE500 /* Main.storyboard */,
 				DE64D0071F57FD55008AE500 /* Assets.xcassets */,
@@ -139,6 +145,8 @@
 			files = (
 				DE64D0031F57FD55008AE500 /* ViewController.swift in Sources */,
 				DE64D0011F57FD55008AE500 /* AppDelegate.swift in Sources */,
+				DE64D0131F57FE65008AE500 /* Dog.swift in Sources */,
+				DE64D0151F57FE74008AE500 /* DogViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
