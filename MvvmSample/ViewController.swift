@@ -12,8 +12,6 @@ class ViewController: UIViewController {
             let viewModel = DogViewModel(name: "Adar", breed: "Cavalier")
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-
     }
 
     override func didReceiveMemoryWarning() {
